@@ -1,0 +1,167 @@
+body {
+    background-color:#ffe6ef;
+    color: #423e3e;
+    margin:0;
+    font-family:arial;
+}
+
+#logo{
+    width: max(100px, 18vw);
+    aspect-ratio:16/4;
+    padding:0.4rem;
+}
+
+h1{
+    color: #e0701d;
+    font-size:min(5vw, 1.2em);
+    font-family:'monospace', tahoma;
+    text-align:center;
+}
+
+header{
+    background-color: #86043e;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:50px;
+    position: fixed;
+    top: 0;
+}
+main{
+    padding-top:50px;
+}
+
+section{
+    width:80%;
+    max-width:600px;
+    margin:0 auto 10px;
+}
+
+h2{
+    border-bottom:4px solid #ffd3e3;
+    padding:50px 0 5px;
+    font-family:'monospace', tahoma;
+}
+.sl{
+    margin-bottom: 30px;
+}
+
+nav > ul {
+    display:flex;
+    flex-wrap:wrap;
+    height:100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-block:0;
+    padding-inline-start:0;
+}
+
+nav > ul > li {
+    color: #fff;
+    display: block;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+}
+
+nav > ul > li:hover {
+    background-color: #fab7cf;
+    color: #30214f;
+}
+
+li > a {
+    text-decoration:none;
+    color: inherit;
+}
+.profile {
+    padding:10px 0 0 5px;
+}
+
+.profile input {
+    width:50%;
+    text-align:left;
+}
+
+.profile label {
+    width:10%;
+    min-width:55px;
+    text-align: right;
+}
+input{
+    font-size:1rem;
+}
+
+.profile label, .profile input {
+   display: inline-block;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height:1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    whitespace: nowrap;
+    clip: rect(0,0,0,0);
+}
+
+p{
+    margin-top: 5px;
+    padding-left:15px;
+    font-size:20px;
+}
+
+p:before {
+    content: "Query #";
+}
+
+.answer-list{
+    list-style:none;
+    padding: 0;
+}
+
+.query-block {
+    text-align:left;
+    display:block;
+    width:100%;
+    margin-top:20px;
+    padding-top: 5px;
+}
+
+.query {
+    border: none;
+    padding:0;
+}
+
+css-row{
+    margin-top:30px;
+    padding:0 15px;    
+}
+
+.btn{
+    margin: 40px auto;
+    display: block;
+    padding: 12px;
+    width:30%;
+    background-color: #fab7c7;
+    font-size:20px;
+    border: 3px solid #83043e;
+    color: #423e3e;
+}
+
+footer {
+    background-color: #83043e;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+address {
+    text-align: center;
+}
+
+footer, footer a {
+    color: #fff;
+}
